@@ -54,7 +54,7 @@ class TestApp:
 
             assert(response.status_code == 200)
             assert(response.content_type == 'application/json')
-            assert(mb.name == "Your Bakery")
+            assert(mb.name == "ABC Bakery")
 
     def test_deletes_baked_goods(self):
         '''can DELETE baked goods through "baked_goods/<int:id>" route.'''
